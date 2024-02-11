@@ -1,0 +1,21 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+.carosuol-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+}
+
+.active{
+  background-color: blue;
+  text-transform:white;
+
+}
