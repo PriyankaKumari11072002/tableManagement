@@ -1,0 +1,94 @@
+//async and differ :are boolen atttribute which are used along with script tag to execute   external script to efficient code.
+//browser two things happening : html is parsing  2 browser is loading  the script ->fetching the script from network and  actually execute script language line by line.
+
+
+//1 without async and differ 
+ // 1 browser parsing the html   2 suddenly encounter script tag over there at this time  (that time browser stopped to pause  to  continue and parse html at that point ) ->first fetching script tag from network and execute it and afterthat fetching script is fully complted the browser continue parsing html until pause html code .
+ //--------------     browser parsing the html   
+//                     -------------------suddenly encounter script tag 
+//                                                  -------------------execute script tag  line by line      
+//                                                                                 ---------------- browser execute finally browser again parsing html code 
+
+
+//with async 
+//--------------   browser pasing the html                   --------------
+//                   -------------- encounter script tag (while browser still sending html tag untlil script tag is fetching from the network synchrously  )
+//                                        ------------------- execute script tag ( that time brower will block the html code until script tag is not executed properly)
+
+
+
+
+//with differ 
+//------------------ browser pasing the html                                           -------------             //when html code is fully loading afterthat script tag will be executed (parellelly )
+//                                  -------------- encounter script tag (while browser still sending html tag untlil script tag is loading  )
+//                                                                            ------------------- execute script tag ( that time brower will  not  block the html code still script tag is executing )       
+
+
+//browser parsing the html code //fetching script tag from the network and execute script tage line by line 
+//in first case : js block html code during fetching and execute script tage  taht time html code keep pauseed and stoped 
+//in second case : when js code is fetching parelly html is also parsing by browser as at the time of execution script tag html code will be blocked on execution time 
+//in third case : parelly fetching script tag from network and but execute only when html code fully parsing by browser.
+
+//dom : whenever webpages is loaded on the browser .browser create  a document object modal of that page and dom are constructed as trees of object.
+//it is programming interface for web documents.
+
+
+//emmet : emmet is a essential tool for developer and allow to type shortcut that are expanded full piece of code for html and css
+//based on abbreveition structure ex: div ,emmet will expand it for you    3 abbreviation expand 
+// 4 dymanic attributes  for class or id : .div  .#div it support to create dive with dynmanic class and id 
+//Nested Structures  ex : <ul>li*3</ul>     //css   bacground-color :bgc   
+
+
+//cdn : refers to geographapically distibuted group of server that works together to provide  fast deleivery of  internet content .
+//the main use of cdn is deliver content through network of server in secure and efficient way.
+
+//library and framework : library is a collection of package that perform specific operation . whereas framework contain basic flow and 
+//architecture of application . the major difference between them is the complexblity. library contain number of method that developer can just call
+//when they can write.
+
+//crossorigin : crossorigin attribute set the mode of request to http cross request .the main purpose of crossorigin attribute is sharing  the resources 
+//one domain to another domain .it is used to handle cors request that checks whether it is safe to sharing resources to other domain. 
+
+
+
+
+// emmet : emmet is a essential toolkit for web deveolpers , that allow to developer type shortcut that expanded full piece of code for html and css , it worked based on abbreviation syntex and abbreviation expandation . also provide dynamic attributes and nested structure . ex : div ,.div ,#div , <ul>li*#</ul>
+
+// library and framework : liibrary is a collection of package that perform specific operation whereas framework content flow of application and arctitecure of software 
+// application . the main difference in them is complexblity . library content number of method that developer can just call when they write code . ex : onClick, all hooks .
+
+
+// cdn  : cdn is geographical distributer of group of server that works together to provide fast delivery  of  internet content  . it is sceure and efficient way to deliever  fast  content .
+
+
+// cross-origin attribute : set the mode of http cors request  , it is handled the  http cors request .   the main purpose of using this is sharing resourcess one domain to another domain . safely sharing resources from other domain.
+
+
+// async and differ : async and differ are boolean attribute which is used along with script tag .  async : script tag is downloaded  in parrell (in the background) html is parsing , executed script tag as soon as it is available. (do not block html construction during downloading process of script tag (fetching script from network)
+// , do not wait for anything . 
+
+//  npm : npm is a tool for package management  . default package manager for node  project . npm in install when node is on machine . it comes with command line interface used with online database of npm . its host to public and private package .
+// dom : whenever page is loaded on the browser .browser create document object strutute of that pages . dom are constructed as tree of object . it is programming interface for web documents .
+
+
+// development and production  : development is the stage of application before it is made for public while production term used for same application when it's made for public . development build several time (slower) than development time.
+
+
+// react and react dom : react is js library for building userinterface whereas reactdom is also js library ,react to intract with dom . react package contain React.createElement() ,React.component , React.children and other helpers to the element and component classes .reactdom package contain Reactdom.render(), reactdom/server we have  server side rendering  support ReactDomServer.renderToString() and ReactDomServer.renderToStaticRender().
+
+
+// why called react : react react is named react because of its ability to react to change data in application . recact is called react because of declarative  ,efficient and flexible library for building user interface , react was  choosen by community ,react whenever state and data  changes coming through application 
+//  and update application in declarative and efficient way . react is based javascrpt user interface  library developed by f.b . managed by open source community developer.
+
+
+// npm : npm is a tool for package management . default pacckage manager for node project . npm is installed when node is on machine . it comes with cammand line 
+// interface used with the online database of npm .this database is called the npm registery . it hosts public and private package.
+
+
+
+
+
+
+
+
+
